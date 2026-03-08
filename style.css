@@ -34,6 +34,35 @@ nav a:hover {
     background-color: turquoise;
 }
 
+/* NEW: Styles for the Headline Update Section */
+#update-section {
+    padding: 20px;
+    background-color: #ddd;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+#update-section input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#update-section button {
+    padding: 10px 20px;
+    background-color: #004d00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#update-section button:hover {
+    background-color: #007a00;
+}
+
 #shop {
     background-color: cyan;
     display: flex;
@@ -50,10 +79,12 @@ nav a:hover {
     width: 250px;
     text-align: center;
     border-radius: 5px;
+    transition: 0.3s; /* Smooths out the hover effect */
 }
 
 .service:hover {
     border-color: #004d00;
+    transform: translateY(-5px); /* Lifts the box slightly */
 }
 
 footer {
@@ -61,4 +92,14 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+/* NEW: Styles for clickable footer links */
+footer a {
+    color: #2ecc71;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
