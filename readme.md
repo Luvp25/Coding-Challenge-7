@@ -1,0 +1,1 @@
+This code creates a landing page for a small business that sells protective soccer gear.
